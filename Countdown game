@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Countdown{
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // enter your constenants and vowels to start game.
+        System.out.println("enter the constenant and vowels you want. To make a word of max 8 letters");
+        String wordmix = scanner.next();
+
+        public class Wordgame {
+            char [] constenant = {b,c,d,e,f,g,h,l};
+            char [] vowels = {a,e,i,o,u}; 
+
+            if(constenant <5 && vowels <5 && wordmix == 8){
+                // start a timer of a minute
+                System,out.println("What is your word?");
+            }else{
+                System.out.println("values entered dont follow the rules enter new values");
+            }
+            //return Countdown;
+        }
+            Class scorekeeping {
+                int wordgamescore; // check the lenght of the word = the score
+                int mathgamescore = targetnumber - result <=10 ; // logic for the games score 
+                int totalScore = wordgamescore + mathgamescore;
+
+            }
+            
+        
+    }
+    
+}
