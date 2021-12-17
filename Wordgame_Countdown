@@ -1,0 +1,36 @@
+import java.util.Scanner;
+import java.util.Timer;
+
+public class wordgame{
+
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        // enter your constenants and vowels to start game.
+        System.out.println("Enter your constenants");
+        char constenant [] = scanner.nextline();
+        System.out.println("Enter your vowels");
+        char vowels [] = scanner.nextline();
+        // either fill array with constants or 
+        String wordmix = constants [] + vowels[];
+        // the if c[] + v[] == 8
+            public String game_rules(){
+                if(constenant [] <=5 && vowels [] <=5 && wordmix [] == 8){
+                System.out.println("")
+                System.out.println("You entered the correct amount. Start the timer");
+                System.out.println("Your Letters are " + wordmix []);
+                //start a timer
+            }       
+            else{
+                System.out.println("Your didnt enter the correct ammount of letters");
+                }
+                System,out.println("What is your word?");
+                String word [] = scanner.nextline();
+           }
+                public int score(){
+                    int score = word.length;
+                    return score;
+                }
+
+    
+    }
+}

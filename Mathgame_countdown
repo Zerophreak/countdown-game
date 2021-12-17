@@ -1,0 +1,52 @@
+import java.util.Scanner;
+import java.util.Random;
+import java.util.Timer;
+
+public class mathgame{
+
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System,out.println("Enter the numbers you like to use for the mathgame");
+        int numbers = scanner.nextInt();
+        int numbers [7] = {} // array to store entered numbers
+
+        public int target(){
+        Random random = new Random();
+        int targetnumber = Random(100, 999); // random number generated betweeen 100 and 999 
+        System.out.println("Your Target number is " + targetnumber);
+        }
+
+        public int mathrules(int smallnumber [], int bignumber []){
+            System.out.println("Enter small numbers between 0-9");
+                smallnumber [] = scanner.nextInt();
+                System.out.println("Enter the big numbers must have values of 10, 25, 50, 75, 100") // extra add in that contraints to those numbers.
+                bignumber [] = scanner.nextInt();
+
+                    if(smallnumber [] =< 4 && bignumber =< 4){
+                        System.out.println("You have entered the correct numbers");
+                        System.out.println("Your target number is " + targetnumber);
+                        // not sure if else if would be needed nut need target number to be printen before the clock start
+                    }else if(targetnumber){
+                        // start timer
+                    }else{
+                        System.out.println("You have not entered the incorrect values");
+                    }
+                    return mathrules;
+            }
+         
+            Public int mathscore(int result, int score){
+                if(result - targetnumber == 0){
+                    score += 10;
+                }
+                    else if(result - targetnumber =< 10 || result - targetnumber => -10){
+                        score += 7;
+                    }
+                        else if(result - targetnumber => 10 || result - targetnumber =< -10){
+                            score+=0;
+                        }
+                        System.out.println(score);
+                }
+    }   
+
+
+}
