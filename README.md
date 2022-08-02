@@ -5,7 +5,7 @@
 - 📫 How to reach me by email only given when requested if you have something interesting to share 
 
 building my software developer portfolio.
-doing a self taught route now im taking a break from college because of the pandemic.
+After a break and doing the self taught route now back to college going back to IRL completely it pretty stressfull thinking of quitting and looking at the other options or going the self taught route and freelance. Just develop my own skills.
 
 <!---
 Zerophreak/Zerophreak is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
