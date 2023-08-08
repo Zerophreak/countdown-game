@@ -18,26 +18,24 @@ namespace program
     class countdown{
         
         public static void wordgame()
-        {
-            string[25] alphabet = {"q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"};
-            Console.WriteLine("What vowels and constenants would you like");
-            string[7] letters = Console.ReadLine(); // make this a string instead of array maybe
-
-            // look into otherways to limit the input of any invalid keys.   
-            // can you block off keyboard input to limit it only to letters and other necessary keys.
-            //
-            private static void checkArrays()
-            {
-                for(int i = 0; i < alphabet; i++){
-                // check array letters if it doesnt contain any input that isnt in array alphabet.
-                // if it does contain any invalid input, throw out letters.  
-                for(int j = 0; j < letters; j++){
-
-                    }
-
-                }
-            // outcome should be that array letters gets check if 
-            }
+        {   // make it the symbols or letters, change it all make it random gen the vowels and constenants. enter number of vowels
+            //char[42] symbols = {",", ".", "'", ";", "\ ", "]", "[", "`", "-", "=", "/", "*", "+", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "~", "<", ">", "?", "{", "}", "_", ":","", "|"}; 
+            char[4] vowels = {"a", "e", "i", "o", "u"};
+            char[19] constenant = {"q", "w", "r", "t", "y", "p", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "b", "n", "m"};
+            Console.Writeline("How many vowels & constenants would you like?");
+            int vowelinput = Console.ReadLine(); // number for how many vowels need to be selected at random
+            int constinput = Console.ReadLine(); // number for how many constenant need to be selected at random
+            Random constnumber = new Random();
+            Random vowelnumber = new Random();
+            int constnumber = constnumber.Next(0, 5);
+            int vowelnumber = vowelnumber.next(0, 20);
+            // generate random numbers then print what is picked
+            Conole.WriteLine(vowels[vowelnumber])
+            Console.WriteLine("Your letters are!" + " " + letters);
+            string[7] letters =  // make this a string instead of array maybe 
+            // set up the random gen for picking constenants and vowels
+        
+            
             if (letters.length == 8)
             {
                 Console.WriteLine("Make words with these letters " + letters);
@@ -60,8 +58,8 @@ namespace program
         public static void numbergame()
         {
 
-            int[] bignumbers = { 25, 10, 50, 100 };
-            int[] smallnumbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[3] bignumbers = { 25, 10, 50, 100 };
+            int[9] smallnumbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             Random targetnumber = new Random();
             // randomly pick  2-4 big or small numbers total is 6
             //generate number between 100 and 999.
