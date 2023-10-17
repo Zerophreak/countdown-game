@@ -1,4 +1,4 @@
-Udate 5/06/2023  buzy with rewritting in C# and doing some additions. So still a work in progress.
+Update 5/06/2023  buzy with rewritting in C# and doing some additions. So still a work in progress.
 Going to rewrite this project in C#. Havent had time to do
 
 This is going to a textbased version of the countdown game
@@ -10,4 +10,5 @@ still struggling with how to work out the arrays and checking that you cant do a
 
 seperate into to parts
 the words part of the show and the numbers part of the show.
+Update 17/10/2023 Rebuilding with inherentance.
 --->
