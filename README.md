@@ -1,4 +1,5 @@
 Update 5/06/2023  buzy with rewritting in C# and doing some additions. So still a work in progress.
+Update 29/10/2023 On hold trying to focus on my Software developer portfolio.
 Going to rewrite this project in C#. Havent had time to do
 
 This is going to a textbased version of the countdown game
